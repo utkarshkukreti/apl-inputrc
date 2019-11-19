@@ -10,6 +10,10 @@ The mappings follow a what-it-looks-like convention. For example, the character
 `←` looks like `<-` and so can be typed using a 3 character sequence: `` `<- ``.
 Similarly, `∊` is typed as `` `e `` and `⍬` as `` `o~ ``.
 
+If the symbol contains a character that looks similar to a vertically flipped
+ASCII character, the mappings use the capitalized version of that character. For
+example, `` `t `` is `⊤` and `` `T `` is `⊥`.
+
 ## Usage
 
     $ INPUTRC=/path/to/this/directory/inputrc rlwrap apl
