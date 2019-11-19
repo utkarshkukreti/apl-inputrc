@@ -8,8 +8,7 @@ are not present on a standard keyboard.
 
 The mappings follow a what-it-looks-like convention. For example, the character
 `←` looks like `<-` and so can be typed using a 3 character sequence: `` `<- ``.
-Similarly, the character iota (`⍳`) is typed as `` `i `` and rho (`⍴`) as
-`` `p ``.
+Similarly, `∊` is typed as `` `e `` and `⍬` as `` `o~ ``.
 
 Refer to the [inputrc](inputrc) file for the list of all the mappings.
 
