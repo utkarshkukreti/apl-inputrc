@@ -1,5 +1,7 @@
 # apl-inputrc
 
+![demo gif](https://gist.githubusercontent.com/utkarshkukreti/9d1e76aee76a8211bc6cfca7889b8993/raw/54fcda84e99f0c1ff7262af76bfbce36c2694d4a/apl-inputrc.gif)
+
 This repository contains an inputrc configuration file meant to be used with
 [`rlwrap`][rlwrap] and a command line APL interpreter.
 
