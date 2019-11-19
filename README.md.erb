@@ -27,7 +27,7 @@ where `apl` is the command to start your APL interpreter.
 <%
   require "json"
   JSON.parse(File.read("map.json")).each do |key, value|
-    %>| `` `<%= value.gsub(/\\|\|/, '\\\\\0') %> `` | <%= key %> |
+    %>| `` `<%= key.gsub(/\\|\|/, '\\\\\0') %> `` | <%= value %> |
 <%
   end
 %>
