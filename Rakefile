@@ -3,7 +3,8 @@ require "json"
 Map = JSON.parse(File.read("map.json"))
 
 # There shouldn't be any overlaps.
-if Map.values.length != Map.values.uniq.length
+values = Map.map(&:last)
+if values.length != values.uniq.length
   abort "overlap!"
 end
 
