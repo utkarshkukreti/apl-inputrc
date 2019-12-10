@@ -38,7 +38,7 @@ example, `` `t `` is `⊤` and `` `T `` is `⊥`.
 <%
   require "json"
   JSON.parse(File.read("map.json")).each do |key, value|
-    %>| `` `<%= key.gsub(/\\|\|/, '\\\\\0') %> `` | <%= value %> |
+    %>| `` `<%= key.gsub("|", "\\|") %> `` | <%= value %> |
 <%
   end
 %>
