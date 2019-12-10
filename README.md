@@ -21,9 +21,15 @@ example, `` `t `` is `⊤` and `` `T `` is `⊥`.
 
 ## Usage
 
+### GNU APL
+
     $ INPUTRC=/path/to/this/directory/inputrc rlwrap --always-readline apl
 
-where `apl` is the command to start your APL interpreter.
+### Dyalog APL
+
+    $ INPUTRC=/path/to/this/directory/inputrc rlwrap /bin/bash -c 'cat | /Applications/Dyalog-17.1.app/Contents/Resources/Dyalog/dyalog'
+
+`/Applications/Dyalog-17.1.app/Contents/Resources/Dyalog/dyalog` is the path to the Dyalog APL CLI on macOS + Dyalog 17.1; replace it appropriately with the path in your system.
 
 ## All Mappings
 
