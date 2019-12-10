@@ -27,9 +27,11 @@ example, `` `t `` is `⊤` and `` `T `` is `⊥`.
 
 ### Dyalog APL
 
-    $ INPUTRC=/path/to/this/directory/inputrc rlwrap /bin/bash -c 'cat | /Applications/Dyalog-17.1.app/Contents/Resources/Dyalog/dyalog'
+    $ INPUTRC=/path/to/this/directory/inputrc rlwrap /bin/bash -c 'cat | /Applications/Dyalog-17.1.app/Contents/Resources/Dyalog/dyalog -q'
 
 `/Applications/Dyalog-17.1.app/Contents/Resources/Dyalog/dyalog` is the path to the Dyalog APL CLI on macOS + Dyalog 17.1; replace it appropriately with the path in your system.
+
+(`-q` prevents Dyalog APL from quitting on error.)
 
 ## All Mappings
 
