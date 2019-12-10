@@ -21,7 +21,7 @@ example, `` `t `` is `⊤` and `` `T `` is `⊥`.
 
 ## Usage
 
-    $ INPUTRC=/path/to/this/directory/inputrc rlwrap apl
+    $ INPUTRC=/path/to/this/directory/inputrc rlwrap --always-readline apl
 
 where `apl` is the command to start your APL interpreter.
 
