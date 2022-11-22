@@ -25,13 +25,9 @@ example, `` `t `` is `⊤` and `` `T `` is `⊥`.
 
     $ INPUTRC=/path/to/this/directory/inputrc rlwrap --always-readline apl
 
-### Dyalog APL
+### Dyalog APL (with Docker)
 
-    $ INPUTRC=/path/to/this/directory/inputrc rlwrap /bin/bash -c 'cat | /Applications/Dyalog-17.1.app/Contents/Resources/Dyalog/dyalog -q'
-
-`/Applications/Dyalog-17.1.app/Contents/Resources/Dyalog/dyalog` is the path to the Dyalog APL CLI on macOS + Dyalog 17.1; replace it appropriately with the path in your system.
-
-(`-q` prevents Dyalog APL from quitting on error.)
+    $ INPUTRC=/path/to/this/directory/inputrc rlwrap --always-readline docker run -it dyalog/dyalog
 
 ## All Mappings
 
